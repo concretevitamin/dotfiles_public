@@ -1,0 +1,39 @@
+########### General ###########
+
+# print 1 line before and after the matched line
+--context=1
+
+# always use color --color 
+
+--color-filename=green
+--color-match=blue
+--color-lineno=yellow
+
+--pager=less -ix4SRFX
+
+# Case-insensitive if query is lower case, otherwise it's case sensitive
+--smart-case
+
+########### Types ###########
+
+# R files
+--type-add
+rr=.r
+
+--type-add
+thrift=.thrift
+
+# horn: the CS164 framework
+--type-set
+horn=.hn
+
+--hh
+--python
+--scala
+--ruby
+--java
+--cc
+--cpp
+--rr
+--thrift
+--horn

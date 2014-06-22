@@ -1,0 +1,55 @@
+alias myssh='sudo sh ~/scripts/ssh.sh'
+alias t='sh ~/scripts/t.sh'
+alias et='vim /Users/covi/Dropbox/SU_Wiki/Todo.wiki'
+alias wn='dict -d wn' # query a word in WordNet
+alias deu='dict -d deu-eng' # query a word in Deutsch-English
+alias df='df -h'
+alias nfiles='ls -1 | wc -l'
+
+# ls-related 
+alias lm='ls -GltrF'  # sort by modification time (mtime)
+alias lS='ls -GlShrF' # sort by size
+alias ll='ls -GlF'
+alias la='ls -GAF'
+alias l='ls -GCF'
+alias lh='ls -GCF $HOME'
+alias lmh='ls -GCFltr $HOME'
+alias lSh='lS $HOME'
+alias ls='ls -GCF'
+
+alias vim='mvim -v'
+alias v='mvim -v'
+
+alias C='cd /media/C/'
+alias D='cd /media/D/'
+alias E='cd /media/E'
+alias I='cd /media/I'
+alias DESK='cd /media/C/Users/covi/Desktop/'
+alias wk='cd /Users/covi/Dropbox/Wiki'
+alias swk='cd /Users/covi/Dropbox/SU_Wiki'
+alias dropbox='cd /Users/covi/Dropbox'
+alias ldesktop='cd ~/ldesktop'
+
+alias dh='sh ~/scripts/sssh.sh'
+
+alias stk='rlwrap stk-simply'
+alias mit-scheme='rlwrap mit-scheme'
+alias haskeme='cd /Users/covi/Dropbox/haskell/haskeme'
+
+alias up='cd ..'
+alias up2='cd ../..'
+alias up3='cd ../../..'
+alias up4='cd ../../../..'
+alias u='cd ..'
+alias u2='cd ../..'
+alias u3='cd ../../..'
+alias u4='cd ../../../..'
+
+alias stow='stow -v'
+
+alias sd='sudo'
+
+alias glog="git log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+
+# Tmux-related
+alias mymux="mux start default"
