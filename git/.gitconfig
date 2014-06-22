@@ -1,0 +1,50 @@
+[user]
+    email = zongheng.y@gmail.com
+    name = Zongheng Yang
+[alias]
+    comm = commit -m
+    st = status
+    ck = checkout
+    br = branch
+    mg = merge
+    stsa = stash apply
+    stsa1 = stash apply stash@{1}
+    stsp = stash pop
+    stsp1 = stash pop stash@{1}
+    stsl = stash list
+    mm = merge master
+    pom = pull origin master
+    ml = log --author='Zongheng Yang'
+    log1 = !git --no-pager log --stat -1
+    log2 = !git --no-pager log --stat -2
+    log3 = !git --no-pager log --stat -3
+    addu = !echo 'git add -u && git status' && git add -u && git status 
+    d = diff
+    d1 = diff HEAD~1
+    d2 = diff HEAD~2
+    d3 = diff HEAD~3
+    ds = diff --stat
+    dc = diff --cached
+    dcs = diff --cached --stat
+    sl = shortlog -n -s 
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%C(bold blue)<%an>%Creset' --abbrev-commit
+	g = grep --break --heading --line-number -i
+    ca = commit --amend
+    cr = cherry-pick
+[pager]
+    stash = false
+	status = true
+[core]
+    editor = mvim -v
+[push]
+    default = current
+[pull]
+    default = current
+[branch]
+    autosetuprebase = always
+[color]
+    ui = auto
+    diff = true
+[grep]
+	extendRegexp = true
+	lineNumber = true
